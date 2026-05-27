@@ -1,0 +1,23 @@
+{
+  "name": "mysecrets-cli",
+  "version": "0.1.0",
+  "description": "Fetch secrets from your mysecrets backend and inject them into processes or CI/CD",
+  "bin": {
+    "mysecrets-cli": "bin/mysecrets-cli"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "node bin/mysecrets-cli"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
